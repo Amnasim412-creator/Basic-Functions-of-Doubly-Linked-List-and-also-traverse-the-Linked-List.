@@ -95,18 +95,19 @@ int main(){
     d.push_back(-1);
     cout<<"Using push front and back functions = ";
     d.print();
-    /*
     cout<<endl;
+    
     d.pop_front();
     cout<<"Using pop Front deletion = ";
     d.print();
     cout<<endl;
+    
     d.pop_back();
     cout<<"Using pop Back Function delete from front =";
     d.print();
-    d.pop_back();
 
-*/
+
     d.traves();
+     d.print();
 return 0 ;
 }
